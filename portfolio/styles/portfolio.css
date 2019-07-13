@@ -14,15 +14,19 @@
     }
 
     #navbar{
-      width:100%;
-      position:fixed;
-      top:0;
+      width: 100vw;
+      position: fixed;
+      top: 0;
       background:maroon;
-      padding:20px;
     }
 
     #navbar a{
+      display: inline-block;
       padding:20px;
+    }
+
+    #navbar a:hover{
+      background: red;
     }
 
   #projects{
@@ -91,7 +95,9 @@
 
     }
 
-    @media screen and (orientation:landscape){
+
+@media screen and (orientation:landscape){
+
       *{
         box-sizing:border-box;
       }
@@ -107,22 +113,28 @@
       }
 
       #navbar{
-        width:100%;
-        position:fixed;
-        top:0;
+        width: 100vw;
+        position: fixed;
+        top: 0;
         background:maroon;
-        padding:20px;
+        padding-left: 2em;
       }
 
       #navbar a{
+        display: inline-block;
         padding:20px;
       }
 
-    #projects{
-      display:grid;
-      grid-template-columns:auto auto auto;
-      background:darkslategray;
-    }
+      #navbar a:hover{
+        background: red;
+      }
+
+
+      #projects{
+        display:grid;
+        grid-template-columns:auto auto auto;
+        background:darkslategray;
+      }
 
      .project-tile{
        grid-area:span 1;
