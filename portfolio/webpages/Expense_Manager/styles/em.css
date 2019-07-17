@@ -1,3 +1,6 @@
 input{
 padding:10px;
 }
+.app{
+  visibility: hidden;
+}
