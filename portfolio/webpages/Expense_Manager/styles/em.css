@@ -4,3 +4,14 @@ padding:10px;
 .app{
   visibility: hidden;
 }
+
+button{
+  padding: 10px;
+}
+
+main{
+  margin: 0 1em;
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+}
