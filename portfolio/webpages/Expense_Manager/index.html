@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Expense Manager</title>
+    <link rel="stylesheet" href="styles/em.css">
+  </head>
+  <body><main>
+    <h1>Expense Manager</h1>
+    <input type="text" placeholder="Enter item name" id="item"required><br><br>
+    <input  type="number" placeholder="price" id="price" required><br><br>
+<select id="paidby">
+  <option disabled selected>Money given by</option>
+  <option value="sanjay">Sanjay</option>
+  <option value="ashish">Ashish</option>
+  <option value="ayan">Ayan</option>
+  <option value="sanju">Sanju</option>
+  <option value="aakash">Aakash</option>
+</select><br><br>
+  <button id="submit">show total</button>
+
+<h2>Items Bought</h2>
+<ul id="items"></ul>
+<div class="cashout">
+<h2>Cashout Summary</h2>
+    <p id="total"></p>
+    <p id="c_sanjay"></p>
+    <p id="c_ashish"></p>
+    <p id="c_ayan"></p>
+    <p id="c_sanju"></p>
+    <p id="c_aakash"></p>
+<h2 id="avgex">Expense per Head=</h2>
+</div>
+<div class="equate">
+<h2>Equating the expense among all</h2>
+<p id="e_sanjay"></p>
+<p id="e_ashish"></p>
+<p id="e_ayan"></p>
+<p id="e_sanju"></p>
+<p id="e_aakash"></p>
+</div>
+</main>
+<script type="text/javascript" src="script/expense manager.js">
+
+</script>
+  </body>
+</html>
