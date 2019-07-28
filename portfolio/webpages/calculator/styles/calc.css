@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+.calc{
+  display: grid;
+  grid-template-columns: repeat(4,5vw);
+  justify-content: center;
+}
+
+.extra{
+  display: none;
+  transition: 2s;
+}
+
+button{
+  background-color: lightgrey;
+  padding: 10px;
+  height: 8vh;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.screen{
+  grid-area: span 3/span 4;
+  height: 20vh;
+  border: 1px solid black;
+  background: white;
+}
+
+body{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/calc.png);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+}
