@@ -14,11 +14,12 @@
 }
 
 button{
-  background-color: lightgrey;
   padding: 10px;
-  height: 8vh;
-  font-size: 20px;
-  background-color: yellow;
+  font-size: 1.5em;
+  background-color: maroon;
+  color: white;
+  border-color: maroon;
+  font-family: cursive;
 }
 
 .screen{
@@ -26,6 +27,8 @@ button{
   height: 20vh;
   border: 1px solid black;
   background: white;
+  font-size: 20px;
+  padding: 10px;
 }
 
 body{
