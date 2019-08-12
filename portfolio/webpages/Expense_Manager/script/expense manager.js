@@ -10,6 +10,13 @@ let mem_name_input=document.querySelector("#mem_name_input");
 let mem_name_input_add=document.querySelector("#mem_name_input_add");
 let mem_name_input_submit=document.querySelector("#mem_name_input_submit");
 let mem_list=document.querySelector(".mem_list");
+
+mem_name_input.onkeypress=function(e){
+  if(e.keyCode===13){
+    mem_name_input_add.click();
+  }
+}
+
 mem_name_input_add.onclick=function(){
   if(mem_name_input.value!=''){
     mem[mem_name_input.value]=0;
