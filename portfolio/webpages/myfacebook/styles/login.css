@@ -18,14 +18,14 @@ body{
 
 .logo{
     grid-area: logo;
-    background: #0712a7;
+    background: #4267b2;
     color: white;
     padding-left: 20px;
 }
 
 .login{
     grid-area: login;
-    background:#0712a7;
+    background:#4267b2;
     color:white;
     padding: 10px;
 }
